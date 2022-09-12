@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigating to url: https://classic.crmpro.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to url: https://classic.crmpro.com<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: username<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.name: password<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-09T13:36:10Z" name="Healthcare" finished-at="2022-09-09T13:36:40Z" duration-ms="29779">
+    <groups>
+    </groups>
+    <test started-at="2022-09-09T13:36:10Z" name="test1" finished-at="2022-09-09T13:36:40Z" duration-ms="29779">
+      <class name="test.TestClass">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:test.TestClass@394a2528]" started-at="2022-09-09T13:36:10Z" name="setDriver" finished-at="2022-09-09T13:36:16Z" duration-ms="6275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="link_1(java.lang.String)[pri:0, instance:test.TestClass@394a2528]" started-at="2022-09-09T13:36:16Z" name="link_1" description="check all links" finished-at="2022-09-09T13:36:39Z" duration-ms="22337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigating to url: https://classic.crmpro.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to url: https://classic.crmpro.com<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: username<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.name: password<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- link_1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.TestClass@394a2528]" started-at="2022-09-09T13:36:39Z" name="teardown" finished-at="2022-09-09T13:36:40Z" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.TestClass -->
+    </test> <!-- test1 -->
+  </suite> <!-- Healthcare -->
+</testng-results>

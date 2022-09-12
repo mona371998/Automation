@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Healthcare" class="navigator-link">
+              <span class="suite-name border-passed">Healthcare</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Healthcare" class="navigator-link ">
+                    <span>D:\Selenium_framework\Test_Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Healthcare" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Healthcare" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Healthcare" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Healthcare" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Healthcare" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Healthcare" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Healthcare" class="hide-methods passed suite-Healthcare"> (hide)</a> <!-- hide-methods passed suite-Healthcare -->
+                      <a href="#" panel-name="suite-Healthcare" class="show-methods passed suite-Healthcare"> (show)</a> <!-- show-methods passed suite-Healthcare -->
+                    </span>
+                    <div class="method-list-content passed suite-Healthcare">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Healthcare" title="test.TestClass" class="method navigator-link" hash-for-method="link_1(chrome)">link_1(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Healthcare -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Healthcare" class="panel Healthcare">
+          <div class="suite-Healthcare-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="link_1(chrome)">
+                  </a> <!-- link_1(chrome) -->
+                  <span class="method-name">link_1</span>
+                  <span class="parameters">(chrome)</span>
+                  <em>
+(check all links)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Healthcare-class-passed -->
+        </div> <!-- panel Healthcare -->
+        <div panel-name="test-xml-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Selenium_framework\Test_Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Healthcare&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.TestClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+&lt;/suite&gt; &lt;!-- Healthcare --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Healthcare</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Healthcare</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Healthcare</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Healthcare');
+function tableData_Healthcare() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'link_1')
+data.setCell(0, 2, 'test.TestClass')
+data.setCell(0, 3, 22337);
+window.suiteTableData['Healthcare']= { tableData: data, tableDiv: 'times-div-Healthcare'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-Healthcare">
+              </div> <!-- times-div-Healthcare -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Healthcare</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">link_1(chrome)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigating to url: https://classic.crmpro.com<br></span>
+                <span class="reporter-method-output">Navigated to url: https://classic.crmpro.com<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: username<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: username<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: username<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: username<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: password<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: password<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: password<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.name: password<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br></span>
+                <span class="reporter-method-output">Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br></span>
+                <span class="reporter-method-output">Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br></span>
+                <span class="reporter-method-output">Before Clicking on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br></span>
+                <span class="reporter-method-output">Clicked on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Healthcare" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestClass</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">link_1(chrome)</span>
+                <span class="method-start">6275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">28613 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

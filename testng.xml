@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- Browser supports  chrome, chrome-ng, chrome-chinese, chrome-haitian, chrome-spanish, chrome-korean, chrome-Vietnamese  -->
+<suite name="Healthcare">
+
+
+
+  <test name="test1">
+  <parameter name="browser" value="chrome"/>
+  
+    <classes>
+      <class name="test.TestClass"/>
+    </classes>
+  </test> 
+  
+  
+ </suite> <!-- Suite -->

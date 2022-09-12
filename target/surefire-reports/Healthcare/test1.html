@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 09 19:06:10 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29779 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestClass.link_1()'><b>link_1</b><br>Test class: test.TestClass<br>Test method: check all links<br>Parameters: chrome<br/>
+<a href="#Output-2041611826" onClick='toggleBox("Output-2041611826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2041611826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2041611826">
+Navigating to url: https://classic.crmpro.com<br><br/>
+Navigated to url: https://classic.crmpro.com<br><br/>
+Finding Element by locator: By.name: username<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Finding Element by locator: By.name: username<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Finding Element by locator: By.name: username<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Finding Element by locator: By.name: username<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: username]<br><br/>
+Finding Element by locator: By.name: password<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Finding Element by locator: By.name: password<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Finding Element by locator: By.name: password<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Finding Element by locator: By.name: password<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Before Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+After Changing value of: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> name: password]<br><br/>
+Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br><br/>
+Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br><br/>
+Finding Element by locator: By.xpath: //*[@id="loginForm"]/div/div/input<br><br/>
+Element Found: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br><br/>
+Before Clicking on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br><br/>
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (f0681e0d7ecc33c06b7c43d459474056)] -> xpath: //*[@id="loginForm"]/div/div/input]<br><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>test.TestClass@394a2528</td></tr>
+</table><p>
+</body>
+</html>
